@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DBB8C148-B4BA-4F35-85DD-3D8AC03166D5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2868A594-3D20-4B82-A623-F414A19653AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Services/GamesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getGames(page:pageSize:search:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - d73eab404133f26e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - efafe0041a698878"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - 3c080e06ff00b668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - dca2b2d572f0bba0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - dca04047551e8c87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - 6defd258f11279a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - 6defd258f11279a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - dca2b2d572f0bbc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - dca04047551e8ce0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2868A594-3D20-4B82-A623-F414A19653AD - 6defd258f11279c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.GamesService.getGames(page: Swift.Int, pageSize: Swift.Int, search: Swift.String) async -&gt; Swift.Result&lt;GameInfo.GameResponseModel, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Services/GamesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54EB05FD-F392-4052-BCFE-04C2A076BCF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54EB05FD-F392-4052-BCFE-04C2A076BCF0 - d931c44a10987ac4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "54EB05FD-F392-4052-BCFE-04C2A076BCF0 - d931c44a10987ac4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F59E1459-3A38-4ACB-A3EC-811F3BB83F9D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F59E1459-3A38-4ACB-A3EC-811F3BB83F9D - 2f7fafa71b83d443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1976">
+               </Location>
+               <Location
+                  uuid = "F59E1459-3A38-4ACB-A3EC-811F3BB83F9D - 2f7fafa71b83d443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3B92854-7C93-41FE-9CF1-5EEBE9C7332F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3B92854-7C93-41FE-9CF1-5EEBE9C7332F - 2f7fafa71b83d6d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "2212">
+               </Location>
+               <Location
+                  uuid = "A3B92854-7C93-41FE-9CF1-5EEBE9C7332F - 2f7fafa71b83d6d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "2220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63D60D0F-FE60-434A-91D9-2E126583A142"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 3cc45f931da9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 4bdefbac3f130f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 2f7fafa71b83d611"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - d931c44a10987812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 3cc45f931da9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 3cc45f931da9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "63D60D0F-FE60-434A-91D9-2E126583A142 - 3cc45f931da9217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A92BCB31-5F79-4640-9183-7E398B90A92C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A92BCB31-5F79-4640-9183-7E398B90A92C - 2f7fafa71b83d6f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "A92BCB31-5F79-4640-9183-7E398B90A92C - 2f7fafa71b83d6f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55F0A200-EBE3-4E3F-806E-F576F5644287"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Endpoints/GameEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "parameters"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1131D7B-CC9D-4468-82A7-4E199BF928CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getQueryItems(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1131D7B-CC9D-4468-82A7-4E199BF928CF - b5a32390815a2fea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "D1131D7B-CC9D-4468-82A7-4E199BF928CF - b5a32390815a2fea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "908">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40BD1591-1DF9-4D3A-B605-B017EA38ED42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getQueryItems(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40BD1591-1DF9-4D3A-B605-B017EA38ED42 - b5a32390815a2f01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "40BD1591-1DF9-4D3A-B605-B017EA38ED42 - b5a32390815a2f01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F375B885-B21D-4166-A813-4D2157874163"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getQueryItems(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F375B885-B21D-4166-A813-4D2157874163 - b5a32390815a2f66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "F375B885-B21D-4166-A813-4D2157874163 - b5a32390815a2f66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9B59B64-FCDF-4AEB-BBF5-03F85325D3F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getQueryItems(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9B59B64-FCDF-4AEB-BBF5-03F85325D3F2 - b5a32390815a2ebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "992">
+               </Location>
+               <Location
+                  uuid = "D9B59B64-FCDF-4AEB-BBF5-03F85325D3F2 - b5a32390815a2ebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.HTTPClient.getQueryItems(with: GameInfo.Endpoint) -&gt; Swift.Array&lt;Foundation.URLQueryItem&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D06E96D2-013C-4682-88EF-55862A57E251"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "590ABDF6-280B-41FF-9A15-FFD9B0499630"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "getUrlRequest(with:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "940E78C3-DB53-4F6D-8026-F03AF383A411"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "940E78C3-DB53-4F6D-8026-F03AF383A411 - 3cc45f931da927a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  uuid = "940E78C3-DB53-4F6D-8026-F03AF383A411 - 3cc45f931da927a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "940E78C3-DB53-4F6D-8026-F03AF383A411 - 3cc45f931da927a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GameInfo.HTTPClient.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(endpoint: GameInfo.Endpoint, responseModel: &#x3c4;_1_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_1_0, GameInfo.HTTPError&gt;"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Network/Base/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8B396A9-9373-4118-94C6-A290CBFBC3AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "getUrlRequest(with:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F17D394E-03EB-4CA9-B98C-1BFE43C3B8B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "getUrlRequest(with:endpoint:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18D36958-3AFC-4C78-9B26-3D0E08F91B1B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Endpoints/GameEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "baseURL"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E79D5D6E-7D6F-4567-A69C-B530C570ECAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FE7AA58-F4FE-4BAE-8E81-2888D67E7F72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Network/Base/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "request(endpoint:responseModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD43FA16-0C8B-4BCF-94C6-E1887D19954E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "startDownloadImage(game:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77F378B0-3459-407C-8FCF-E3EBD683D4DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "startDownloadImage(game:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "startDownloadImage(game:indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 24d08841d7387394"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 1fb369f9c8428b8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 2782236e0d13b79a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - a71c899c1806159b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 24d08841d7386c66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 1fb369f9c842947e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - 2782236e0d13a868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "571CDEEB-09A9-4820-B4DA-8094ED50F1E3 - a71c899c18060a69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F43146F6-0546-4B0C-9681-5173B3C4E024"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "startDownloadImage(game:indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F43146F6-0546-4B0C-9681-5173B3C4E024 - 24d08841d7387331"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F43146F6-0546-4B0C-9681-5173B3C4E024 - 24d08841d7387331"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "F43146F6-0546-4B0C-9681-5173B3C4E024 - 24d08841d7386d83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F43146F6-0546-4B0C-9681-5173B3C4E024 - 24d08841d7386d83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GameInfo.MainViewController.startDownloadImage(game: GameInfo.GameModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E782C15F-4EEC-4CD7-952E-DDAF983F6CD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "startDownloadImage(game:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE294EC3-3D7E-4093-90A8-C61D7D7EE82C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/DetailGameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init(service:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

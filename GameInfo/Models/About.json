@@ -1,0 +1,8 @@
+{
+    "data": {
+        "author": "Djaka Permana",
+        "current_job": " iOS Developer",
+        "author_image": "https://media.licdn.com/dms/image/C5603AQEHODnQPoOptA/profile-displayphoto-shrink_800_800/0/1664038875538?e=2147483647&v=beta&t=prr_e0NGr-JGjVr_WQItJkVWHjc1bgxd7wTfElpFMWg",
+        "description": "Aplikasi GameInfo merupakan aplikasi catalog game yang di rancang khusus untuk keperluan submission awal pada modul Belajar Fundamental Aplikasi IOS. Dalam membangun aplikasi ini terdapat beberapa halaman diantaranya adalah: <br><br>1. Halaman home yg berfungsi untuk menampilkan list atau catalog game dimana pada halaman ini terdapat feature pencarian dan pagination<br>2. Halaman detail game dapat berfungsi menampilkan detail dari game yg telah dipilah dari list game<br>3. Halaman About yang mana pada halaman ini menjelaskan tentang aplikasi dan nama pembuat aplikasi. <br><br>Demikian penjelasan dari saya, terima kasih."
+    }
+}
