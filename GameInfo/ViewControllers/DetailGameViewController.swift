@@ -49,22 +49,6 @@ class DetailGameViewController: UIViewController {
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.navigationBar.tintColor = UIColor(hex: "#635985")
         
-        let view = UIView(frame: bannerImage.frame)
-
-        let gradient = CAGradientLayer()
-
-        gradient.frame = view.frame
-
-        gradient.colors = [UIColor.clear.cgColor, UIColor(hex: "#18122B").cgColor]
-
-        gradient.locations = [0.0, 1.0]
-
-        view.layer.insertSublayer(gradient, at: 0)
-
-        bannerImage.addSubview(view)
-
-        bannerImage.bringSubviewToFront(view)
-        
         setupUI()
         getDataGames()
     }
@@ -115,6 +99,15 @@ class DetailGameViewController: UIViewController {
     private func updateUI(with data: GameDetailModel) {
         
         bannerImage.image = data.image
+        let view = UIView(frame: bannerImage.frame)
+        let gradient = CAGradientLayer()
+        gradient.frame = view.frame
+        gradient.colors = [UIColor.clear.cgColor, UIColor(hex: "#18122B").cgColor]
+        gradient.locations = [0.0, 1.0]
+        view.layer.insertSublayer(gradient, at: 0)
+        bannerImage.addSubview(view)
+        bannerImage.bringSubviewToFront(view)
+        
         titleLabel.text = data.name
         ratingLabel.text = String(data.rating ?? 0.0)
         ratingLogo.image = {
@@ -139,21 +132,29 @@ class DetailGameViewController: UIViewController {
             }
         }
         
-        loadingBannerImage.isHidden = false
-        loadingBannerImage.startAnimating()
-        loadingSubBannerImage.isHidden = false
-        loadingSubBannerImage.startAnimating()
-        
-        startDownloadImage(url: data.backgroundImage ?? "") { [weak self] (image) in
-            self?.bannerImage.image = image
-            self?.loadingBannerImage.isHidden = true
-            self?.loadingBannerImage.stopAnimating()
+        startDownloadImage(url: data.backgroundImage ?? "") { [weak self] (downloadState, image) in
+            switch downloadState {
+            case .new:
+                self?.loadingBannerImage.isHidden = false
+                self?.loadingBannerImage.startAnimating()
+            default:
+                self?.loadingBannerImage.isHidden = true
+                self?.loadingBannerImage.stopAnimating()
+                self?.bannerImage.image = image
+            }
+            
         }
         
-        startDownloadImage(url: data.backgroundImageAdditional ?? "") { [weak self] (image) in
-            self?.subBannerImage.image = image
-            self?.loadingSubBannerImage.isHidden = true
-            self?.loadingSubBannerImage.stopAnimating()
+        startDownloadImage(url: data.backgroundImageAdditional ?? "") { [weak self] (downloadState, image) in
+            switch downloadState {
+            case .new:
+                self?.loadingSubBannerImage.isHidden = false
+                self?.loadingSubBannerImage.startAnimating()
+            default:
+                self?.loadingSubBannerImage.isHidden = true
+                self?.loadingSubBannerImage.stopAnimating()
+                self?.subBannerImage.image = image
+            }
         }
         
         releaseLabel.text = data.released
@@ -201,7 +202,7 @@ class DetailGameViewController: UIViewController {
         return imageViews
     }
     
-    private func startDownloadImage(url: String, completion: @escaping (UIImage?) -> Void) {
+    private func startDownloadImage(url: String, completion: @escaping (DownloadState, UIImage?) -> Void) {
         let imageDownloader = ImageDownloader()
         Task {
             do {
@@ -209,9 +210,9 @@ class DetailGameViewController: UIViewController {
                     return
                 }
                 let image = try await imageDownloader.downloadImage(url: gameImageUrl)
-                completion(image)
+                completion(.downloaded, image)
             } catch {
-                completion(nil)
+                completion(.failed, nil)
             }
         }
     }

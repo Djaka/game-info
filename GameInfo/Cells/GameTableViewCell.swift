@@ -17,6 +17,8 @@ class GameTableViewCell: UITableViewCell {
     @IBOutlet weak var titleGameLabel: UILabel!
     @IBOutlet weak var loadingImage: UIActivityIndicatorView!
     @IBOutlet weak var platformStackView: UIStackView!
+    @IBOutlet weak var releaseDateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

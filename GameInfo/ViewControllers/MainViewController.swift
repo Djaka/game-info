@@ -206,6 +206,7 @@ extension MainViewController: UITableViewDataSource {
                 cell.gameImage.image = game.image
                 cell.titleGameLabel.text = game.name
                 cell.ratingLabel.text = String(game.rating ?? 0.0)
+                cell.releaseDateLabel.text = game.released
                 cell.ratingLogo.image = {
                     guard let rating = game.rating else {
                         return UIImage(systemName: "star.fill")
