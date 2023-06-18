@@ -3,4 +3,354 @@
    uuid = "DBB8C148-B4BA-4F35-85DD-3D8AC03166D5"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B84DF16-3F42-4D04-9C6F-AD6C56218C5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Cells/GameTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "favoriteButtonTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B84DF16-3F42-4D04-9C6F-AD6C56218C5F - a34fcc3827a605e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "7B84DF16-3F42-4D04-9C6F-AD6C56218C5F - a34fcc3827a605e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "7B84DF16-3F42-4D04-9C6F-AD6C56218C5F - a34fcc3827a605ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30105D43-35D5-4268-BB5D-F77A13835AEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/Cells/GameTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "favoriteButtonTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30105D43-35D5-4268-BB5D-F77A13835AEB - a34fcc3827a6052f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "30105D43-35D5-4268-BB5D-F77A13835AEB - a34fcc3827a6052f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "30105D43-35D5-4268-BB5D-F77A13835AEB - a34fcc3827a605e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.GameTableViewCell.favoriteButtonTap(Any) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/Cells/GameTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C4C071A-CACF-4FAF-B111-FF2DB6A2DC29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/DetailGameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1C4C071A-CACF-4FAF-B111-FF2DB6A2DC29 - 1da5c14fa8cf00bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.DetailGameViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/DetailGameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "1C4C071A-CACF-4FAF-B111-FF2DB6A2DC29 - 1da5c14fa8cf00dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.DetailGameViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/DetailGameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "1C4C071A-CACF-4FAF-B111-FF2DB6A2DC29 - 1da5c14fa8cf00dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.DetailGameViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/DetailGameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "1C4C071A-CACF-4FAF-B111-FF2DB6A2DC29 - 1da5c14fa8cf009e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.DetailGameViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/ViewControllers/DetailGameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "330"
+                  endingLineNumber = "330"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A9DD18D-C102-4267-8E95-B88B6182203D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/DetailGameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E4D67C3-6BA9-42C6-9847-A44824A5533C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "application(_:configurationForConnecting:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E4D67C3-6BA9-42C6-9847-A44824A5533C - cc3dc5ef5c5ac30b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.AppDelegate.application(_: __C.UIApplication, configurationForConnecting: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; __C.UISceneConfiguration"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "8E4D67C3-6BA9-42C6-9847-A44824A5533C - cc3dc5ef5c5acc4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.AppDelegate.application(_: __C.UIApplication, configurationForConnecting: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; __C.UISceneConfiguration"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "884">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "129A8D22-38B0-4D2D-8D51-351E643FAB25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "application(_:configurationForConnecting:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "129A8D22-38B0-4D2D-8D51-351E643FAB25 - cc3dc5ef5c5ac262"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.AppDelegate.application(_: __C.UIApplication, configurationForConnecting: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; __C.UISceneConfiguration"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "129A8D22-38B0-4D2D-8D51-351E643FAB25 - cc3dc5ef5c5ac262"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameInfo.AppDelegate.application(_: __C.UIApplication, configurationForConnecting: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; __C.UISceneConfiguration"
+                  moduleName = "GameInfo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djakapermana/Documents/XCode/dicoding/GameInfo/GameInfo/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A013808A-710C-4F28-86C0-B65950F43435"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "changeProfile(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A37940D2-5345-4F85-B73B-C65F400929B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameInfo/ViewControllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "changeProfile(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

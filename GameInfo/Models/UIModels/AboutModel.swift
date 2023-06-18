@@ -8,7 +8,7 @@
 import Foundation
 
 struct ResponseData: Codable {
-    var about: About? = nil
+    var about: About?
     
     enum CodingKeys: String, CodingKey {
         case about = "data"
@@ -16,13 +16,15 @@ struct ResponseData: Codable {
 }
 
 struct About: Codable {
-    var author: String? = nil
-    var currentJob: String? = nil
-    var description: String? = nil
-    var authorImage: String? = nil
+    var author: String?
+    var email: String?
+    var currentJob: String?
+    var description: String?
+    var authorImage: String?
     
     enum CodingKeys: String, CodingKey {
         case author = "author"
+        case email = "email"
         case currentJob = "current_job"
         case description = "description"
         case authorImage = "author_image"

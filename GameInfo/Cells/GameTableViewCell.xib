@@ -3,7 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -99,9 +100,35 @@
                                 <color key="textColor" red="0.87450980392156863" green="0.90196078431372551" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Jx-ar-L6O" userLabel="Favorite View">
+                                <rect key="frame" x="224" y="134" width="40" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEq-Kd-dW9" userLabel="Favorite Button">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.87450980389999999" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="heart" catalog="system" symbolScale="medium"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="favoriteButtonTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="S4E-QR-q1h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.38823529411764707" green="0.34901960784313724" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="KEq-Kd-dW9" secondAttribute="bottom" id="5AQ-T0-5Ex"/>
+                                    <constraint firstAttribute="height" constant="40" id="LNf-3b-1fl"/>
+                                    <constraint firstItem="KEq-Kd-dW9" firstAttribute="leading" secondItem="7Jx-ar-L6O" secondAttribute="leading" id="QvU-1E-Evd"/>
+                                    <constraint firstItem="KEq-Kd-dW9" firstAttribute="top" secondItem="7Jx-ar-L6O" secondAttribute="top" id="WbY-tz-Yod"/>
+                                    <constraint firstAttribute="width" constant="40" id="dYL-rH-sLY"/>
+                                    <constraint firstAttribute="trailing" secondItem="KEq-Kd-dW9" secondAttribute="trailing" id="s9b-kh-Qhe"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941176470587" green="0.18823529411764706" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EW1-jv-kbW" firstAttribute="bottom" secondItem="7Jx-ar-L6O" secondAttribute="bottom" constant="16" id="05y-BS-A4S"/>
                             <constraint firstItem="rD3-11-msL" firstAttribute="leading" secondItem="1ek-c6-LeK" secondAttribute="leading" constant="16" id="2MM-F1-UQa"/>
                             <constraint firstAttribute="trailing" secondItem="fxE-7J-e0Z" secondAttribute="trailing" constant="16" id="5d4-0j-ro0"/>
                             <constraint firstItem="zrm-q4-vmd" firstAttribute="top" secondItem="EW1-jv-kbW" secondAttribute="bottom" constant="16" id="8UM-yg-u2u"/>
@@ -109,6 +136,7 @@
                             <constraint firstItem="EW1-jv-kbW" firstAttribute="leading" secondItem="1ek-c6-LeK" secondAttribute="leading" id="CVa-ss-3un"/>
                             <constraint firstAttribute="trailing" secondItem="daH-LF-J76" secondAttribute="trailing" constant="16" id="Ftd-RH-5Jo"/>
                             <constraint firstItem="rD3-11-msL" firstAttribute="top" secondItem="zrm-q4-vmd" secondAttribute="bottom" constant="8" id="KFg-nh-fd5"/>
+                            <constraint firstAttribute="trailing" secondItem="7Jx-ar-L6O" secondAttribute="trailing" constant="16" id="LVs-Fy-whC"/>
                             <constraint firstAttribute="height" constant="304" id="Vhq-9J-Job"/>
                             <constraint firstItem="fxE-7J-e0Z" firstAttribute="leading" secondItem="1ek-c6-LeK" secondAttribute="leading" constant="16" id="Yhq-a9-Bz3"/>
                             <constraint firstItem="BLO-6r-F0h" firstAttribute="centerX" secondItem="EW1-jv-kbW" secondAttribute="centerX" id="dIl-Rx-h2M"/>
@@ -135,6 +163,8 @@
             <connections>
                 <outlet property="cellView" destination="1ek-c6-LeK" id="04G-eJ-6fh"/>
                 <outlet property="containerView" destination="1ek-c6-LeK" id="yx2-KT-CEB"/>
+                <outlet property="favoriteButton" destination="KEq-Kd-dW9" id="zrB-UL-9QI"/>
+                <outlet property="favoriteView" destination="7Jx-ar-L6O" id="00j-eP-rLM"/>
                 <outlet property="gameImage" destination="EW1-jv-kbW" id="3jZ-5s-EBs"/>
                 <outlet property="loadingImage" destination="BLO-6r-F0h" id="8l9-rv-xNo"/>
                 <outlet property="platformStackView" destination="zrm-q4-vmd" id="Bed-5r-Tqa"/>
@@ -149,6 +179,7 @@
     <resources>
         <image name="desktopcomputer" catalog="system" width="128" height="101"/>
         <image name="gamecontroller.fill" catalog="system" width="128" height="79"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
         <image name="logo.playstation" catalog="system" width="128" height="92"/>
         <image name="logo.xbox" catalog="system" width="128" height="123"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>

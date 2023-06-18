@@ -20,6 +20,7 @@ class MainViewController: UIViewController {
     private var page = 1
     private var pageSize = 10
     private var onType = false
+    private var gameProvider = GameProvider()
     
     init(service: GamesService = GamesService()) {
         self.service = service
@@ -35,12 +36,19 @@ class MainViewController: UIViewController {
         
         setupUI()
         setupTable()
-        getDataGames(page: self.page)
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.navigationBar.isHidden = true
+        
+        self.gameTableView.reloadData()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        refreshData()
     }
     
     private func setupUI() {
@@ -114,7 +122,7 @@ class MainViewController: UIViewController {
         }
     }
     
-    private func setPlatformImage(game: GameModel, indexPath: IndexPath) {
+    private func setPlatformImage(game: GameModel) {
         
         var imageNames: [String] = []
         var imageViews: [UIImageView] = []
@@ -138,15 +146,28 @@ class MainViewController: UIViewController {
         
     }
     
+    private func setFavorite(game: GameModel) {
+        gameProvider.getFavorite(game.id ?? 0) { (gameFavorite: GameModel?) in
+            if let gameId = gameFavorite?.id {
+                game.isFavorite = game.id == gameId
+            } else {
+                game.isFavorite = false
+            }
+        }
+    }
+    
     fileprivate func createItems(with games: [Game]) -> [GameModel] {
         return games.map { result in
+            
             return GameModel(
                 id: result.id,
                 name: result.name,
                 released: result.released,
                 backgroundImage: result.backgroundImage,
                 rating: result.rating,
-                parentPlatforms: result.parentPlatforms)
+                parentPlatforms: result.parentPlatforms,
+                isFavorite: false
+            )
         }
     }
     
@@ -168,7 +189,7 @@ class MainViewController: UIViewController {
             self.isLoading = true
             self.page = 1
             
-            DispatchQueue.main.asyncAfter(deadline: .now()+3, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
                 self.getDataGames(page: self.page)
             })
         }
@@ -177,6 +198,34 @@ class MainViewController: UIViewController {
     @IBAction func buttonRefreshAction(_ sender: Any) {
         searchTextField.text = ""
         refreshData()
+    }
+    
+    private func saveFavoriteGame(with gameModel: GameModel) {
+        
+        gameProvider.createFavorite(
+            gameModel.id ?? 0,
+            gameModel.name ?? "",
+            gameModel.released ?? "",
+            gameModel.backgroundImage ?? "",
+            gameModel.rating ?? 0.0,
+            gameModel.parentPlatforms ?? []
+        ) {
+            
+            DispatchQueue.main.async {
+                gameModel.isFavorite = true
+                self.gameTableView.reloadData()
+            }
+        }
+    }
+    
+    private func removeFavorite(with gameModel: GameModel) {
+        
+        gameProvider.deleteFavorite(gameModel.id ?? 0) {
+            DispatchQueue.main.async {
+                gameModel.isFavorite = false
+                self.gameTableView.reloadData()
+            }
+        }
     }
     
 }
@@ -203,6 +252,7 @@ extension MainViewController: UITableViewDataSource {
                 let game = gameModels[indexPath.row]
                 cell.selectionStyle = .none
                 
+                cell.configureCell(gameModel: game)
                 cell.gameImage.image = game.image
                 cell.titleGameLabel.text = game.name
                 cell.ratingLabel.text = String(game.rating ?? 0.0)
@@ -229,7 +279,8 @@ extension MainViewController: UITableViewDataSource {
                     }
                 }
                 
-                setPlatformImage(game: game, indexPath: indexPath)
+                setPlatformImage(game: game)
+                setFavorite(game: game)
                 
                 if game.downloadState == .new {
                     cell.loadingImage.isHidden = false
@@ -239,6 +290,17 @@ extension MainViewController: UITableViewDataSource {
                     cell.loadingImage.isHidden = true
                     cell.loadingImage.stopAnimating()
                 }
+                
+                cell.saveGame = {[weak self] in
+                    self?.saveFavoriteGame(with: game)
+                }
+                
+                cell.removeGame = {[weak self] in
+                    self?.removeFavorite(with: game)
+                }
+                
+                let imageFavorited = game.isFavorite ?? false ? UIImage(systemName: "heart.fill"): UIImage(systemName: "heart")
+                cell.favoriteButton.setImage(imageFavorited, for: .normal)
                 
                 return cell
             } else {
@@ -271,19 +333,6 @@ extension MainViewController: UITableViewDelegate {
         GameParameter.shared.setGameId(id: gameId)
         let detailViewController = DetailGameViewController()
         navigationController?.pushViewController(detailViewController, animated: true)
-    }
-}
-
-extension UIStackView {
-    func removeFully(view: UIView) {
-        removeArrangedSubview(view)
-        view.removeFromSuperview()
-    }
-    
-    func removeFullyAllArrangedSubviews() {
-        arrangedSubviews.forEach { (view) in
-            removeFully(view: view)
-        }
     }
 }
 

@@ -23,12 +23,17 @@ class DetailGameViewController: UIViewController {
     @IBOutlet weak var loadingBannerImage: UIActivityIndicatorView!
     @IBOutlet weak var loadingSubBannerImage: UIActivityIndicatorView!
     @IBOutlet weak var scrollDetail: UIScrollView!
+    @IBOutlet weak var favoriteView: UIView!
+    @IBOutlet weak var favoriteButton: UIButton!
     
     private var service: GamesService
     private var gameId: Int
+    private var gameProvider: GameProvider
+    private var gameDetailModel: GameDetailModel?
     
-    init(service: GamesService = GamesService()) {
+    init(service: GamesService = GamesService(), provider: GameProvider = GameProvider()) {
         self.service = service
+        self.gameProvider = provider
         self.gameId = GameParameter.shared.getGameId()
         super.init(nibName: nil, bundle: nil)
     }
@@ -48,14 +53,22 @@ class DetailGameViewController: UIViewController {
         scrollDetail.delegate = self
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.navigationBar.tintColor = UIColor(hex: "#635985")
+        self.navigationController?.navigationBar.standardAppearance.titleTextAttributes = [.foregroundColor: UIColor(hex: "#635985")]
         
         setupUI()
         getDataGames()
+    }
+    
+    @objc func favoriteAction() {
+        favoriteActionTap()
     }
 
     private func setupUI() {
         backView.layer.cornerRadius = 10
         backView.clipsToBounds = true
+        
+        favoriteView.layer.cornerRadius = 10
+        favoriteView.clipsToBounds = true
         
         subBannerImage.layer.cornerRadius = 10
         subBannerImage.clipsToBounds = true
@@ -69,7 +82,9 @@ class DetailGameViewController: UIViewController {
                 guard let data = self?.mapResponse(with: response) else {
                     return
                 }
+                self?.gameDetailModel = data
                 self?.updateUI(with: data)
+                self?.checkFavorite()
             case .failure(let failure):
                 self?.showAlertError(message: failure.message)
             }
@@ -177,6 +192,16 @@ class DetailGameViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
+    private func showAlertSuccess(message: String) {
+        let okay = UIAlertAction(title: "Ok", style: .default)
+        
+        let alert = UIAlertController(title: "Success message", message: message, preferredStyle: .alert)
+        
+        alert.addAction(okay)
+        
+        self.present(alert, animated: true)
+    }
+    
     private func setPlatformImage(gameDetailModel: GameDetailModel) -> [UIImageView]? {
         
         var imageNames: [String] = []
@@ -217,6 +242,76 @@ class DetailGameViewController: UIViewController {
         }
     }
     
+    private func checkFavorite() {
+        guard let gameDetailModel = gameDetailModel else {
+            return
+        }
+        gameProvider.getFavorite(gameDetailModel.id ?? 0) { (game: GameModel?) in
+            
+            DispatchQueue.main.async {
+                if game != nil {
+                    gameDetailModel.isFavorite = true
+                    self.setFavoriteUI(isFavorite: true)
+                } else {
+                    gameDetailModel.isFavorite = false
+                    self.setFavoriteUI(isFavorite: false)
+                }
+            }
+        }
+    }
+    
+    private func setFavoriteGame(with gameDetailModel: GameDetailModel) {
+        
+        gameProvider.createFavorite(
+            gameDetailModel.id ?? 0,
+            gameDetailModel.name ?? "",
+            gameDetailModel.released ?? "",
+            gameDetailModel.backgroundImage ?? "",
+            gameDetailModel.rating ?? 0.0,
+            gameDetailModel.parentPlatforms ?? []) {
+                DispatchQueue.main.async {
+                    self.gameDetailModel?.isFavorite = true
+                    self.setFavoriteUI(isFavorite: true)
+                    self.showAlertSuccess(message: " \(self.gameDetailModel?.name ?? "") now is favorite")
+                }
+            }
+    }
+    
+    private func removeFavoriteGame(with id: Int) {
+        gameProvider.deleteFavorite(id) {
+            DispatchQueue.main.async {
+                self.gameDetailModel?.isFavorite = false
+                self.setFavoriteUI(isFavorite: false)
+                self.showAlertSuccess(message: " \(self.gameDetailModel?.name ?? "") now is not favorite")
+            }
+        }
+    }
+    
+    private func setFavoriteUI(isFavorite: Bool) {
+        if isFavorite {
+            self.favoriteButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+            navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(favoriteAction))
+        } else {
+            self.favoriteButton.setImage(UIImage(systemName: "heart"), for: .normal)
+            navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .plain, target: self, action: #selector(favoriteAction))
+        }
+    }
+    
+    private func favoriteActionTap() {
+        guard let gameDetailModel = gameDetailModel else {
+            return
+        }
+        if gameDetailModel.isFavorite ?? false {
+            removeFavoriteGame(with: gameDetailModel.id ?? 0)
+        } else {
+            setFavoriteGame(with: gameDetailModel)
+        }
+    }
+    
+    @IBAction func favoriteButtonAction(_ sender: Any) {
+        favoriteActionTap()
+    }
+    
     @IBAction func backButtonAction(_ sender: Any) {
         self.navigationController?.popToRootViewController(animated: true)
     }
@@ -226,12 +321,21 @@ class DetailGameViewController: UIViewController {
 extension DetailGameViewController: UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if scrollView.contentOffset.y > 100 {
-              navigationController?.setNavigationBarHidden(false, animated: true)
-
-           } else {
-              navigationController?.setNavigationBarHidden(true, animated: true)
-           }
+        
+        guard let gameDetailModel = gameDetailModel else {
+            return
+        }
+        
+        if scrollView.contentOffset.y > 50 && scrollView.contentOffset.y < 350 {
+            navigationController?.setNavigationBarHidden(false, animated: true)
+            navigationItem.title = ""
+        } else if scrollView.contentOffset.y > 350 {
+            navigationController?.setNavigationBarHidden(false, animated: false)
+            navigationItem.title = gameDetailModel.name ?? ""
+            self.navigationController?.navigationBar.standardAppearance.titleTextAttributes = [.foregroundColor: UIColor(hex: "#635985")]
+        } else {
+            navigationController?.setNavigationBarHidden(true, animated: true)
+        }
     }
     
 }

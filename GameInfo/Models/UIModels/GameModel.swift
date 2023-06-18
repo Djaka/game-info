@@ -18,6 +18,7 @@ class GameModel {
     var image: UIImage?
     var downloadState: DownloadState = .new
     var platformImages: [UIImageView]?
+    var isFavorite: Bool?
     
     init(
         id: Int?,
@@ -25,7 +26,8 @@ class GameModel {
         released: String?,
         backgroundImage: String?,
         rating: Double?,
-        parentPlatforms: [ParentPlatform]?
+        parentPlatforms: [ParentPlatform]?,
+        isFavorite: Bool? = false
     ) {
         self.id = id
         self.name = name
@@ -33,5 +35,6 @@ class GameModel {
         self.backgroundImage = backgroundImage
         self.rating = rating
         self.parentPlatforms = parentPlatforms
+        self.isFavorite = isFavorite
     }
 }
