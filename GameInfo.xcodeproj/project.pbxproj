@@ -187,7 +187,6 @@
 		888E4AE32A2A395400F55B43 = {
 			isa = PBXGroup;
 			children = (
-				888861122A377F1D0075020A /* Data */,
 				888E4AEE2A2A395400F55B43 /* GameInfo */,
 				888E4B052A2A395600F55B43 /* GameInfoTests */,
 				888E4B0F2A2A395600F55B43 /* GameInfoUITests */,
@@ -208,6 +207,7 @@
 		888E4AEE2A2A395400F55B43 /* GameInfo */ = {
 			isa = PBXGroup;
 			children = (
+				888861122A377F1D0075020A /* Data */,
 				8856F49F2A2E2EE000AD8C17 /* Singletons */,
 				888E4B4F2A2BC61C00F55B43 /* Helpers */,
 				888E4B4A2A2BAEA400F55B43 /* Cells */,
